@@ -53,7 +53,7 @@ This project is a secure, decentralized file sharing platform that combines **Bl
 ## 💻 Installation
 
 ```bash
-git clone https://github.com/your-username/secure-file-share-blockchain.git
+git clone https://github.com/Hari2605haran/secure-file-share-blockchain.git
 cd secure-file-share-blockchain
 pip install -r requirements.txt
 python app.py
