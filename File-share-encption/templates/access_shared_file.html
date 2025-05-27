@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Access Shared File</title>
+</head>
+<body>
+    <h2>Access Shared File</h2>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <p style="color: {{ 'green' if category == 'success' else 'red' }}">{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <form method="POST" enctype="multipart/form-data">
+        <label>Upload Database File (.db):</label>
+        <input type="file" name="file" accept=".db" required><br>
+        <label>Upload Key File (.key):</label>
+        <input type="file" name="key" accept=".key" required><br>
+        <input type="submit" value="Access File">
+    </form>
+    <p><a href="{{ url_for('dashboard') }}">Back to Dashboard</a></p>
+</body>
+</html>
