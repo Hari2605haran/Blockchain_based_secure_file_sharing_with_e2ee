@@ -42,6 +42,13 @@ This project is a secure, decentralized file sharing platform that combines **Bl
 | Storage Privacy          | Plain files  | Encrypted        | Full Confidentiality  |
 | Auditability             | None         | Full Log         | Transparent History   |
 
+## Screenshot
+![image](https://github.com/user-attachments/assets/11764cfc-154e-4444-92e2-844e7c1f279a)
+![image](https://github.com/user-attachments/assets/3b37fd6f-1ef6-4411-89e3-11ff6393f157)
+![image](https://github.com/user-attachments/assets/07839927-ec86-4e38-8845-d065704653f6)
+![image](https://github.com/user-attachments/assets/1479a644-ddc0-4f0f-9f45-d84bf70a2bc0)
+
+
 ## 🔮 Future Enhancements
 
 - 🤖 **Smart Contract Integration** for automated access control.
